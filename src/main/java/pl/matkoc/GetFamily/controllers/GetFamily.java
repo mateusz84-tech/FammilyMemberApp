@@ -16,7 +16,6 @@ public class GetFamily {
     @GetMapping("/{id}")
     public Family getFamily(@PathVariable int id){
 
-
         String getId = String.valueOf(id);
         String url = "http://localhost:8080/family/id";
 
